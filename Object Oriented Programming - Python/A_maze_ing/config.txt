@@ -1,0 +1,20 @@
+#this is the WIDTH of our Maze
+WIDTH= 20
+
+#this is the HEIGHT of our Maze
+HEIGHT= 20
+
+#this is the ENTRY to our Maze
+ENTRY=0,0
+
+#this is the EXIT of our Maze
+EXIT=19,19
+
+seed=-3
+
+#this is where the hexadecimal represntation of the cells in the Maze
+#also the shortest path from the ENTRY to the EXIT in directions (NSWE)
+OUTPUT_FILE=maze.txt
+
+#this will define if our Maze has one path or more
+PERFECT=False
